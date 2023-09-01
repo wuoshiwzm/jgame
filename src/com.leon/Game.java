@@ -12,8 +12,26 @@ public class Game extends JFrame {
         // 初始化 菜单
         initMenu();
 
+        // 初始化图片
+        initImage();
 
+
+
+
+        //
         this.setVisible(true);
+    }
+
+    private void initImage(){
+
+        // ImageIcon
+
+
+        // 创建 JLabel
+
+
+        // 把 JLable 添加到界面中
+
     }
 
     private void initPage() {
