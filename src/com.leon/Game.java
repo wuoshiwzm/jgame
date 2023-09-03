@@ -45,7 +45,6 @@ public class Game extends GameFrame implements KeyListener {
         initGameImg();
 
         initBg();
-
     }
 
     // 添加背景
@@ -63,12 +62,9 @@ public class Game extends GameFrame implements KeyListener {
         // 清空图片
         this.getContentPane().removeAll();
 
-
         for (int[] ints : posArr) {
             System.out.println(Arrays.toString(ints));
         }
-
-        System.out.println("x:" + x + "y:" + y);
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
@@ -84,12 +80,8 @@ public class Game extends GameFrame implements KeyListener {
                 this.getContentPane().add(label);
             }
         }
-
         this.getContentPane().repaint();
     }
-
-
-
 
 
     private void initPosArr() {
@@ -116,8 +108,6 @@ public class Game extends GameFrame implements KeyListener {
                 imgNums.remove(ind);
             }
         }
-
-
     }
 
 
@@ -218,8 +208,6 @@ public class Game extends GameFrame implements KeyListener {
                 }
 
                 break;
-
         }
     }
-
 }
